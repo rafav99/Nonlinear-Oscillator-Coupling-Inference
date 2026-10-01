@@ -1,0 +1,10 @@
+{
+  "tta": "sign_flip_average",
+  "validation_mean_sre": 0.3493388321762459,
+  "members": [
+    {"name": "C3", "architecture": "pair_context", "weight": 0.15, "validation_sre": 0.38684},
+    {"name": "C4", "architecture": "pair_context", "weight": 0.15, "validation_sre": 0.38790},
+    {"name": "ACCFT17", "architecture": "edge_first_acc", "weight": 0.35, "validation_sre": 0.3627290427684784},
+    {"name": "ACCFT29_30", "architecture": "edge_first_acc", "weight": 0.35, "validation_sre": null}
+  ]
+}

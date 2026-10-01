@@ -1,0 +1,6 @@
+model,architecture,validation_mean_sre,ensemble_weight
+C3,pair_context,0.38684,0.15
+C4,pair_context,0.38790,0.15
+ACCFT17,edge_first_acc,0.3627290427684784,0.35
+ACCFT29_30,edge_first_acc,,0.35
+Final ensemble,mixed,0.3493388321762459,1.00
