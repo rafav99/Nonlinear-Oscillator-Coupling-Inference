@@ -74,12 +74,12 @@ $$
 The pairwise interaction is also experiment-dependent:
 
 $$
-h_c(\Delta x)\in
-\left\{
-\frac{\tanh(c\Delta x)}{c},
-\frac{\sin(c\Delta x)}{c},
-\frac{\Delta x}{1+(c\Delta x)^2}
-\right\}.
+h_c(\Delta x) =
+\begin{cases}
+\dfrac{\tanh(c\Delta x)}{c}, & \text{tanh interaction} \\
+\dfrac{\sin(c\Delta x)}{c}, & \text{sine interaction} \\
+\dfrac{\Delta x}{1+(c\Delta x)^2}, & \text{rational interaction}
+\end{cases}
 $$
 
 The coupling graph is sparse, connected and non-negative. Experiments are drawn from both unstructured and modular/hub-like graph families while preserving the same edge-count and weight distributions.
