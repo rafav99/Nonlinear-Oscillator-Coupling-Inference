@@ -187,7 +187,7 @@ The strongest solution combined complementary models rather than selecting a sin
 | C3 | PairContextNet | 0.15 | 0.38684 |
 | C4 | PairContextNet | 0.15 | 0.38790 |
 | ACCFT17 | EdgeFirstAccNet | 0.35 | 0.36273 |
-| ACCFT29_30 | EdgeFirstAccNet | 0.35 | — |
+| ACCFT29_30 | EdgeFirstAccNet | 0.35 | 0.36248 |
 | **Final ensemble** | **mixed** | **1.00** | **0.34934** |
 
 These values are the recorded results from the final benchmark run. The original trained checkpoints are not redistributed in this public reconstruction, so the table should be read as the experiment record rather than as a claim that the included untrained models reproduce the score out of the box.
